@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A0AC988317A8AED300CF5A29 /* ZZCSWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AC988117A8AED300CF5A29 /* ZZCSWindowController.m */; };
 		A0AC988417A8AED300CF5A29 /* ZZCSWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0AC988217A8AED300CF5A29 /* ZZCSWindowController.xib */; };
+		A0AC988717A8BE5F00CF5A29 /* MyTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AC988617A8BE5F00CF5A29 /* MyTool.m */; };
 		A0B8631E17A7A0B200251741 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B8631D17A7A0B200251741 /* Cocoa.framework */; };
 		A0B8632817A7A0B200251741 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0B8632617A7A0B200251741 /* InfoPlist.strings */; };
 		A0B8632A17A7A0B200251741 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B8632917A7A0B200251741 /* main.m */; };
@@ -21,6 +22,8 @@
 		A0AC988017A8AED300CF5A29 /* ZZCSWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCSWindowController.h; sourceTree = "<group>"; };
 		A0AC988117A8AED300CF5A29 /* ZZCSWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZCSWindowController.m; sourceTree = "<group>"; };
 		A0AC988217A8AED300CF5A29 /* ZZCSWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZZCSWindowController.xib; sourceTree = "<group>"; };
+		A0AC988517A8BE5F00CF5A29 /* MyTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTool.h; sourceTree = "<group>"; };
+		A0AC988617A8BE5F00CF5A29 /* MyTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTool.m; sourceTree = "<group>"; };
 		A0B8631A17A7A0B200251741 /* AppTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B8631D17A7A0B200251741 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A0B8632017A7A0B200251741 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -90,6 +93,8 @@
 				A0B8632F17A7A0B200251741 /* AppDelegate.h */,
 				A0B8633017A7A0B200251741 /* AppDelegate.m */,
 				A0B8633217A7A0B200251741 /* MainMenu.xib */,
+				A0AC988517A8BE5F00CF5A29 /* MyTool.h */,
+				A0AC988617A8BE5F00CF5A29 /* MyTool.m */,
 				A0AC988017A8AED300CF5A29 /* ZZCSWindowController.h */,
 				A0AC988117A8AED300CF5A29 /* ZZCSWindowController.m */,
 				A0AC988217A8AED300CF5A29 /* ZZCSWindowController.xib */,
@@ -178,6 +183,7 @@
 				A0B8632A17A7A0B200251741 /* main.m in Sources */,
 				A0B8633117A7A0B200251741 /* AppDelegate.m in Sources */,
 				A0AC988317A8AED300CF5A29 /* ZZCSWindowController.m in Sources */,
+				A0AC988717A8BE5F00CF5A29 /* MyTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
